@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AHProgressSlider_Example' do
+  pod 'AHProgressSlider', :path => '../'
+
+  target 'AHProgressSlider_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
