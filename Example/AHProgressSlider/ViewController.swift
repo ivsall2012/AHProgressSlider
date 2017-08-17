@@ -12,6 +12,9 @@ import AHProgressSlider
 
 class ViewController: UIViewController {
     @IBOutlet weak var slider: AHProgressSlider!
+    @IBAction func sliderTouchDown(_ sender: AHProgressSlider) {
+        print("sliderTouchDown")
+    }
     var timer: Timer?
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +27,7 @@ class ViewController: UIViewController {
         slider.setThumbImage(thumbImg, for: .normal)
 //        let img = circle(diameter: 25.0, color: .orange)
 //        slider.setThumbImage(img, for: .normal)
-//        slider.trackHeight = 2.0
+        slider.trackHeight = 2.0
         slider.value = 0.3
         slider.loadedProgress = 0.0
         

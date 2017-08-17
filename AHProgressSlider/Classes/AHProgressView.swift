@@ -10,7 +10,7 @@ import UIKit
 
 public class AHProgressView: UIView {
     let path = UIBezierPath()
-    public var progress: CGFloat = 0.7 {
+    public var progress: CGFloat = 0.0 {
         didSet {
             guard progress >= 0.0 && progress <= 1.0 else{
                 progress = oldValue

@@ -18,10 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "AHProgressSlider/Classes/**/*",
-  "resource_bundles": {
-    "AHProgressSlider": [
-      "AHProgressSlider/Assets/*.xcassets"
-    ]
-  }
+  "source_files": "AHProgressSlider/Classes/**/*"
 }

@@ -7,34 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A1707E27C9F76D57B5FF80058899759 /* AHProgressSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C43BECF7B2143C940DC9755465A272 /* AHProgressSlider-dummy.m */; };
 		2DEC5E9160D985183C6724F5B547ECFB /* Pods-AHProgressSlider_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D80A084F96E190E50C7C2A61272D1 /* Pods-AHProgressSlider_Tests-dummy.m */; };
-		3041F5A65ACD34A06F9C6B2CE66F3E7B /* AHProgressSlider.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F59C5208DEEDD5DBA7684B6999BA05C8 /* AHProgressSlider.bundle */; };
 		3B7985CDFE7FB1B0CC34667992630DB2 /* Pods-AHProgressSlider_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3642DA9769C753E86E2516E46995D6A1 /* Pods-AHProgressSlider_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		463FF546E5E44C3F17708296CBF593CD /* Pods-AHProgressSlider_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA411AE10BFD12EA537B49A758E1FD /* Pods-AHProgressSlider_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CEAD7ADDDDF6E02DE16CC972DFFD070 /* AHProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B419420BC86D37D2AFBA4D21962CFB7 /* AHProgressView.swift */; };
+		5F4062081F898D679529625304147239 /* AHProgressSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B50081E7093C5AF06DAC5E4C54A1C83 /* AHProgressSlider-dummy.m */; };
 		81DDAC824DF38B032B622EF68EB42294 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		9EAA77574B79B89EE4C6B9C463AD639B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F9B4521A16C2131099E52C30D959481 /* Assets.xcassets */; };
+		849878DDC71CACC0A815DE2E950210D3 /* AHProgressSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF76DB63D49FA0E39B46544A6B9997FD /* AHProgressSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85D516A3338D3EE941CFF45341BB50C1 /* AHProgressSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7816D200B28AD00AAB2E55F21F63918E /* AHProgressSlider.swift */; };
 		A1686A47FCF04C95DA62CDCD94FDCCD3 /* Pods-AHProgressSlider_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D250A018D1D90F86502D6825CB1C7846 /* Pods-AHProgressSlider_Example-dummy.m */; };
-		B27E1480A4FF490E663256E19E6CE120 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B2A3D39C0C4A7EC7D18EAFB57E056333 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B461893A730DFC28E6DADD1AE281ACC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D2FE0DDF742C418D98E1A8C1205F91BB /* AHProgressSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441E3107AE27A65E99E93EEBF28A869F /* AHProgressSlider.swift */; };
-		FB335D18F517C6E4915A40B69BD2A4B6 /* AHProgressSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DFAFE4C53B888BFA7D72E9DA5933725 /* AHProgressSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC19ECBACB289F539AD61C42113D4E54 /* AHProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90B179E8BEC4B72140B6F7EBA8EF0D8 /* AHProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D70C6C6DFFB8E57A74A960448878FD32 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4F05111C83AB16E034CA863A0404021C;
-			remoteInfo = "AHProgressSlider-AHProgressSlider";
-		};
 		E970857CE8F4B9C3F753908606D9C487 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E5D5FBC7EB20441A4878D82CCE3D2358;
+			remoteGlobalIDString = AE5B1CFD50A69F70B257307E10BA0290;
 			remoteInfo = AHProgressSlider;
 		};
 /* End PBXContainerItemProxy section */
@@ -42,51 +33,40 @@
 /* Begin PBXFileReference section */
 		11DC55E1E39BBFA09718EDB3693D4E69 /* Pods-AHProgressSlider_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHProgressSlider_Example-frameworks.sh"; sourceTree = "<group>"; };
 		234D80A084F96E190E50C7C2A61272D1 /* Pods-AHProgressSlider_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AHProgressSlider_Tests-dummy.m"; sourceTree = "<group>"; };
-		33A03F8B382722E22024AF92290C5C90 /* AHProgressSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AHProgressSlider.framework; path = AHProgressSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		342B58AD7AAA92D906C6D916607B4DBA /* Pods_AHProgressSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AHProgressSlider_Example.framework; path = "Pods-AHProgressSlider_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F60906958FAD9BC0DFEA0BDADCAA5AB /* AHProgressSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHProgressSlider.xcconfig; sourceTree = "<group>"; };
 		3642DA9769C753E86E2516E46995D6A1 /* Pods-AHProgressSlider_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AHProgressSlider_Example-umbrella.h"; sourceTree = "<group>"; };
-		40FA689E1977E83822247CB49EF2AB0E /* AHProgressSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AHProgressSlider.modulemap; sourceTree = "<group>"; };
-		441E3107AE27A65E99E93EEBF28A869F /* AHProgressSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHProgressSlider.swift; sourceTree = "<group>"; };
+		48BAC2C1EA46BB116C27837065ADC0E4 /* AHProgressSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHProgressSlider-prefix.pch"; sourceTree = "<group>"; };
 		4AC751D77F9B5B7B3E0303442D4FC30B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B50081E7093C5AF06DAC5E4C54A1C83 /* AHProgressSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AHProgressSlider-dummy.m"; sourceTree = "<group>"; };
+		55F31E76C00FB421E27989EB1F6B1B03 /* Pods_AHProgressSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AHProgressSlider_Example.framework; path = "Pods-AHProgressSlider_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF5E1170B8CD91A75C68B5CBA64425C /* Pods-AHProgressSlider_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHProgressSlider_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6364E0607F4D64B844EBB5D2F2CDDE44 /* AHProgressSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AHProgressSlider.modulemap; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6B419420BC86D37D2AFBA4D21962CFB7 /* AHProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHProgressView.swift; sourceTree = "<group>"; };
 		6CE2DAF93BEDFAA8896042FB340A211E /* Pods-AHProgressSlider_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHProgressSlider_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7083B4E3BCC9ADBB6FFBE950E8C65099 /* Pods-AHProgressSlider_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AHProgressSlider_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7816D200B28AD00AAB2E55F21F63918E /* AHProgressSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHProgressSlider.swift; sourceTree = "<group>"; };
 		799D249C5184707272F612BD772FA116 /* Pods-AHProgressSlider_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AHProgressSlider_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7DFAFE4C53B888BFA7D72E9DA5933725 /* AHProgressSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHProgressSlider-umbrella.h"; sourceTree = "<group>"; };
-		7F9B4521A16C2131099E52C30D959481 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		85C43BECF7B2143C940DC9755465A272 /* AHProgressSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AHProgressSlider-dummy.m"; sourceTree = "<group>"; };
+		83BE50B413BFF7D8AE291E5B949ED527 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		968601CFC643C7F7C084348A8EA2E1AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F025EC8DD7BEC529B37C249613D0BDD /* Pods-AHProgressSlider_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHProgressSlider_Tests-resources.sh"; sourceTree = "<group>"; };
-		9F82B4B4D64B06EF2D6672330225CCDF /* AHProgressSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHProgressSlider-prefix.pch"; sourceTree = "<group>"; };
 		A48ED022D5A56E8EB01AFB871CE1526C /* Pods-AHProgressSlider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHProgressSlider_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A8067AE178B031F52BA138682B3820CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABEE839B484A8835BAC396651FFB0438 /* Pods-AHProgressSlider_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHProgressSlider_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC9C35A0C5BCEBF0DAD4DA4536CD58A0 /* Pods-AHProgressSlider_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AHProgressSlider_Example.modulemap"; sourceTree = "<group>"; };
-		B66E313A6038FD6FFA1406D9F905E899 /* AHProgressSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHProgressSlider.xcconfig; sourceTree = "<group>"; };
+		B39099A5EA258A599FEB3CB92E30FEC8 /* AHProgressSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AHProgressSlider.framework; path = AHProgressSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90B179E8BEC4B72140B6F7EBA8EF0D8 /* AHProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHProgressView.swift; sourceTree = "<group>"; };
+		BF76DB63D49FA0E39B46544A6B9997FD /* AHProgressSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHProgressSlider-umbrella.h"; sourceTree = "<group>"; };
+		C5DD62A88BCACD2AE2BC9FF06CBD6F39 /* Pods_AHProgressSlider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AHProgressSlider_Tests.framework; path = "Pods-AHProgressSlider_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D250A018D1D90F86502D6825CB1C7846 /* Pods-AHProgressSlider_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AHProgressSlider_Example-dummy.m"; sourceTree = "<group>"; };
 		D79F6BAA220E650BD117044D334C7BA7 /* Pods-AHProgressSlider_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHProgressSlider_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E720887EAF0135D559A96A2495A87A0C /* Pods-AHProgressSlider_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHProgressSlider_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F0A837818A6B89D521BE5617F33CE21A /* ResourceBundle-AHProgressSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AHProgressSlider-Info.plist"; sourceTree = "<group>"; };
-		F59C5208DEEDD5DBA7684B6999BA05C8 /* AHProgressSlider.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AHProgressSlider.bundle; path = AHProgressSlider.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E9DB11038BDE2216D7463A546D85EF /* Pods-AHProgressSlider_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AHProgressSlider_Tests.modulemap"; sourceTree = "<group>"; };
-		FB2F29E3FF6FE65E4FBE6BDB1B6B0F64 /* Pods_AHProgressSlider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AHProgressSlider_Tests.framework; path = "Pods-AHProgressSlider_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEBE9ED8BE3D04329240976F362B86EE /* Pods-AHProgressSlider_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHProgressSlider_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FFA43D876AC35EDF4516EA17B2DD5C7F /* Pods-AHProgressSlider_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHProgressSlider_Example-resources.sh"; sourceTree = "<group>"; };
 		FFFA411AE10BFD12EA537B49A758E1FD /* Pods-AHProgressSlider_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AHProgressSlider_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1AA520FF384616A4BC26F30F64AAFE4C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B27E1480A4FF490E663256E19E6CE120 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2BED35534489EF23B3B772A86E622FFF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,18 +75,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4E1A24AE3400D31782D590F4534E12D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A3D39C0C4A7EC7D18EAFB57E056333 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		78B40B5388768C6168688B5025ACA92D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				81DDAC824DF38B032B622EF68EB42294 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4A48ECE20878C9CFF88BCE5E296662D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,33 +112,38 @@
 			path = "Target Support Files/Pods-AHProgressSlider_Tests";
 			sourceTree = "<group>";
 		};
-		2B8D6838BDBB17A0901565EF39A2EDFB /* Resources */ = {
+		18248E73D6931F9EECBAFED5446001CC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D21693E7C40679073650C10D57C3D90F /* AHProgressSlider */,
+				7816D200B28AD00AAB2E55F21F63918E /* AHProgressSlider.swift */,
+				B90B179E8BEC4B72140B6F7EBA8EF0D8 /* AHProgressView.swift */,
 			);
-			name = Resources;
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		5C3CE54C9B7F1AF13A067054B817E3D5 /* Support Files */ = {
+		1E6E822FB1F6688B0F17F4EC36B5F102 /* AHProgressSlider */ = {
 			isa = PBXGroup;
 			children = (
-				40FA689E1977E83822247CB49EF2AB0E /* AHProgressSlider.modulemap */,
-				B66E313A6038FD6FFA1406D9F905E899 /* AHProgressSlider.xcconfig */,
-				85C43BECF7B2143C940DC9755465A272 /* AHProgressSlider-dummy.m */,
-				9F82B4B4D64B06EF2D6672330225CCDF /* AHProgressSlider-prefix.pch */,
-				7DFAFE4C53B888BFA7D72E9DA5933725 /* AHProgressSlider-umbrella.h */,
-				968601CFC643C7F7C084348A8EA2E1AC /* Info.plist */,
-				F0A837818A6B89D521BE5617F33CE21A /* ResourceBundle-AHProgressSlider-Info.plist */,
+				5F6295E1A65F95F43C159C5F7B23DA87 /* AHProgressSlider */,
+				9D52E9E689B3C9C3D0111F53ED456B84 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AHProgressSlider";
+			name = AHProgressSlider;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		62FF7A317F4DF0F2EEC9570B39E5FB1A /* AHProgressSlider */ = {
+		25894DFF911D064D2B959F4375E26E2B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AB46FEF5288034DB7D12D68E691D9B5F /* Classes */,
+				1E6E822FB1F6688B0F17F4EC36B5F102 /* AHProgressSlider */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5F6295E1A65F95F43C159C5F7B23DA87 /* AHProgressSlider */ = {
+			isa = PBXGroup;
+			children = (
+				18248E73D6931F9EECBAFED5446001CC /* Classes */,
 			);
 			name = AHProgressSlider;
 			path = AHProgressSlider;
@@ -185,32 +171,35 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BECD64AB759BF4DE2920D2C76917D03D /* Development Pods */,
+				25894DFF911D064D2B959F4375E26E2B /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				A0D40D101029679C12F2AB22C55DC561 /* Products */,
+				97EAC27D7357F2F3E3FEDBDD4DE1355C /* Products */,
 				BF6889D6C4D65F7CE1FB2B6007B78AD1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A0D40D101029679C12F2AB22C55DC561 /* Products */ = {
+		97EAC27D7357F2F3E3FEDBDD4DE1355C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F59C5208DEEDD5DBA7684B6999BA05C8 /* AHProgressSlider.bundle */,
-				33A03F8B382722E22024AF92290C5C90 /* AHProgressSlider.framework */,
-				342B58AD7AAA92D906C6D916607B4DBA /* Pods_AHProgressSlider_Example.framework */,
-				FB2F29E3FF6FE65E4FBE6BDB1B6B0F64 /* Pods_AHProgressSlider_Tests.framework */,
+				B39099A5EA258A599FEB3CB92E30FEC8 /* AHProgressSlider.framework */,
+				55F31E76C00FB421E27989EB1F6B1B03 /* Pods_AHProgressSlider_Example.framework */,
+				C5DD62A88BCACD2AE2BC9FF06CBD6F39 /* Pods_AHProgressSlider_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AB46FEF5288034DB7D12D68E691D9B5F /* Classes */ = {
+		9D52E9E689B3C9C3D0111F53ED456B84 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				441E3107AE27A65E99E93EEBF28A869F /* AHProgressSlider.swift */,
-				6B419420BC86D37D2AFBA4D21962CFB7 /* AHProgressView.swift */,
+				6364E0607F4D64B844EBB5D2F2CDDE44 /* AHProgressSlider.modulemap */,
+				2F60906958FAD9BC0DFEA0BDADCAA5AB /* AHProgressSlider.xcconfig */,
+				4B50081E7093C5AF06DAC5E4C54A1C83 /* AHProgressSlider-dummy.m */,
+				48BAC2C1EA46BB116C27837065ADC0E4 /* AHProgressSlider-prefix.pch */,
+				BF76DB63D49FA0E39B46544A6B9997FD /* AHProgressSlider-umbrella.h */,
+				83BE50B413BFF7D8AE291E5B949ED527 /* Info.plist */,
 			);
-			name = Classes;
-			path = Classes;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AHProgressSlider";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -221,14 +210,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BECD64AB759BF4DE2920D2C76917D03D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D036E3CFDCBA57792F0E79886104AD5C /* AHProgressSlider */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		BF6889D6C4D65F7CE1FB2B6007B78AD1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,35 +217,6 @@
 				0CD00BE933FB90600C111709C534B09F /* Pods-AHProgressSlider_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		C90D8CCE8DF36C7A821C8DD18EEC5B53 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				7F9B4521A16C2131099E52C30D959481 /* Assets.xcassets */,
-			);
-			name = Assets;
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		D036E3CFDCBA57792F0E79886104AD5C /* AHProgressSlider */ = {
-			isa = PBXGroup;
-			children = (
-				62FF7A317F4DF0F2EEC9570B39E5FB1A /* AHProgressSlider */,
-				2B8D6838BDBB17A0901565EF39A2EDFB /* Resources */,
-				5C3CE54C9B7F1AF13A067054B817E3D5 /* Support Files */,
-			);
-			name = AHProgressSlider;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		D21693E7C40679073650C10D57C3D90F /* AHProgressSlider */ = {
-			isa = PBXGroup;
-			children = (
-				C90D8CCE8DF36C7A821C8DD18EEC5B53 /* Assets */,
-			);
-			name = AHProgressSlider;
-			path = AHProgressSlider;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -278,19 +230,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		225F5A36A16A8FC621AB8F13068CD305 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FB335D18F517C6E4915A40B69BD2A4B6 /* AHProgressSlider-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2E3136938875DF929F540E348527F0BA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3B7985CDFE7FB1B0CC34667992630DB2 /* Pods-AHProgressSlider_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BFDFEB385D25F770938C53822788BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849878DDC71CACC0A815DE2E950210D3 /* AHProgressSlider-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,25 +271,8 @@
 			);
 			name = "Pods-AHProgressSlider_Tests";
 			productName = "Pods-AHProgressSlider_Tests";
-			productReference = FB2F29E3FF6FE65E4FBE6BDB1B6B0F64 /* Pods_AHProgressSlider_Tests.framework */;
+			productReference = C5DD62A88BCACD2AE2BC9FF06CBD6F39 /* Pods_AHProgressSlider_Tests.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		4F05111C83AB16E034CA863A0404021C /* AHProgressSlider-AHProgressSlider */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 64E20D36415C79154F2C3A935EF56452 /* Build configuration list for PBXNativeTarget "AHProgressSlider-AHProgressSlider" */;
-			buildPhases = (
-				5C60058DF5B9912F55D4BE1577ECA65A /* Sources */,
-				F4A48ECE20878C9CFF88BCE5E296662D /* Frameworks */,
-				6485642EBB8E6591A8EB0BFC9D063F52 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "AHProgressSlider-AHProgressSlider";
-			productName = "AHProgressSlider-AHProgressSlider";
-			productReference = F59C5208DEEDD5DBA7684B6999BA05C8 /* AHProgressSlider.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 		9895A5BD763A91C0207242C8B79D3D08 /* Pods-AHProgressSlider_Example */ = {
 			isa = PBXNativeTarget;
@@ -354,26 +289,24 @@
 			);
 			name = "Pods-AHProgressSlider_Example";
 			productName = "Pods-AHProgressSlider_Example";
-			productReference = 342B58AD7AAA92D906C6D916607B4DBA /* Pods_AHProgressSlider_Example.framework */;
+			productReference = 55F31E76C00FB421E27989EB1F6B1B03 /* Pods_AHProgressSlider_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E5D5FBC7EB20441A4878D82CCE3D2358 /* AHProgressSlider */ = {
+		AE5B1CFD50A69F70B257307E10BA0290 /* AHProgressSlider */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF6532C7641ACD818924F0EA2DF78562 /* Build configuration list for PBXNativeTarget "AHProgressSlider" */;
+			buildConfigurationList = C9F465F77DF0DB8B546B73DFBBF510EE /* Build configuration list for PBXNativeTarget "AHProgressSlider" */;
 			buildPhases = (
-				CEE683B0011547710AA84173363A2D69 /* Sources */,
-				1AA520FF384616A4BC26F30F64AAFE4C /* Frameworks */,
-				E6431A5B32362900408FB1231AE4EEF4 /* Resources */,
-				225F5A36A16A8FC621AB8F13068CD305 /* Headers */,
+				6302C227F90F3B0CED9172DF58364B0D /* Sources */,
+				4E1A24AE3400D31782D590F4534E12D2 /* Frameworks */,
+				78BFDFEB385D25F770938C53822788BE /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				13402BD3C71B551AC377C6DF13FECE60 /* PBXTargetDependency */,
 			);
 			name = AHProgressSlider;
 			productName = AHProgressSlider;
-			productReference = 33A03F8B382722E22024AF92290C5C90 /* AHProgressSlider.framework */;
+			productReference = B39099A5EA258A599FEB3CB92E30FEC8 /* AHProgressSlider.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -393,36 +326,16 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A0D40D101029679C12F2AB22C55DC561 /* Products */;
+			productRefGroup = 97EAC27D7357F2F3E3FEDBDD4DE1355C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E5D5FBC7EB20441A4878D82CCE3D2358 /* AHProgressSlider */,
-				4F05111C83AB16E034CA863A0404021C /* AHProgressSlider-AHProgressSlider */,
+				AE5B1CFD50A69F70B257307E10BA0290 /* AHProgressSlider */,
 				9895A5BD763A91C0207242C8B79D3D08 /* Pods-AHProgressSlider_Example */,
 				048816252F4EA2F5DD67F6A7A7DF9241 /* Pods-AHProgressSlider_Tests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		6485642EBB8E6591A8EB0BFC9D063F52 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9EAA77574B79B89EE4C6B9C463AD639B /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E6431A5B32362900408FB1231AE4EEF4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3041F5A65ACD34A06F9C6B2CE66F3E7B /* AHProgressSlider.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0C693E5242D9C81038D17D5515AC7A6F /* Sources */ = {
@@ -433,10 +346,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C60058DF5B9912F55D4BE1577ECA65A /* Sources */ = {
+		6302C227F90F3B0CED9172DF58364B0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F4062081F898D679529625304147239 /* AHProgressSlider-dummy.m in Sources */,
+				85D516A3338D3EE941CFF45341BB50C1 /* AHProgressSlider.swift in Sources */,
+				DC19ECBACB289F539AD61C42113D4E54 /* AHProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,69 +364,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEE683B0011547710AA84173363A2D69 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2A1707E27C9F76D57B5FF80058899759 /* AHProgressSlider-dummy.m in Sources */,
-				D2FE0DDF742C418D98E1A8C1205F91BB /* AHProgressSlider.swift in Sources */,
-				7CEAD7ADDDDF6E02DE16CC972DFFD070 /* AHProgressView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		13402BD3C71B551AC377C6DF13FECE60 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "AHProgressSlider-AHProgressSlider";
-			target = 4F05111C83AB16E034CA863A0404021C /* AHProgressSlider-AHProgressSlider */;
-			targetProxy = D70C6C6DFFB8E57A74A960448878FD32 /* PBXContainerItemProxy */;
-		};
 		3D7072EDC22C634BFBF5D04CE8DA4857 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AHProgressSlider;
-			target = E5D5FBC7EB20441A4878D82CCE3D2358 /* AHProgressSlider */;
+			target = AE5B1CFD50A69F70B257307E10BA0290 /* AHProgressSlider */;
 			targetProxy = E970857CE8F4B9C3F753908606D9C487 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		089E17AE58F53ACB14A343940B17E81D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B66E313A6038FD6FFA1406D9F905E899 /* AHProgressSlider.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AHProgressSlider/AHProgressSlider-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AHProgressSlider/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AHProgressSlider/AHProgressSlider.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = AHProgressSlider;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		3B62B5B90D592F912663A97F68E8846C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E720887EAF0135D559A96A2495A87A0C /* Pods-AHProgressSlider_Tests.release.xcconfig */;
@@ -546,40 +411,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		4599A8C0CD5E27C91DA0A8F4E7D64058 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B66E313A6038FD6FFA1406D9F905E899 /* AHProgressSlider.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AHProgressSlider";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/AHProgressSlider/ResourceBundle-AHProgressSlider-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = AHProgressSlider;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		58A32C115EF175FD045A82E31F734690 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B66E313A6038FD6FFA1406D9F905E899 /* AHProgressSlider.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AHProgressSlider";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/AHProgressSlider/ResourceBundle-AHProgressSlider-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = AHProgressSlider;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -622,6 +453,41 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1C3FA39174A032ED6132A1A98972AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F60906958FAD9BC0DFEA0BDADCAA5AB /* AHProgressSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AHProgressSlider/AHProgressSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AHProgressSlider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AHProgressSlider/AHProgressSlider.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AHProgressSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -671,41 +537,6 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		B85B6B2F4978CB53E7662DB8A4ED98F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B66E313A6038FD6FFA1406D9F905E899 /* AHProgressSlider.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AHProgressSlider/AHProgressSlider-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AHProgressSlider/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AHProgressSlider/AHProgressSlider.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = AHProgressSlider;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -784,6 +615,41 @@
 			};
 			name = Debug;
 		};
+		E6DB0C58F012BD5DF4B0A725350A03FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F60906958FAD9BC0DFEA0BDADCAA5AB /* AHProgressSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AHProgressSlider/AHProgressSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AHProgressSlider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AHProgressSlider/AHProgressSlider.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AHProgressSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		F97D0E4C377327441644834E4D1D8D96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A48ED022D5A56E8EB01AFB871CE1526C /* Pods-AHProgressSlider_Example.release.xcconfig */;
@@ -843,11 +709,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64E20D36415C79154F2C3A935EF56452 /* Build configuration list for PBXNativeTarget "AHProgressSlider-AHProgressSlider" */ = {
+		C9F465F77DF0DB8B546B73DFBBF510EE /* Build configuration list for PBXNativeTarget "AHProgressSlider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58A32C115EF175FD045A82E31F734690 /* Debug */,
-				4599A8C0CD5E27C91DA0A8F4E7D64058 /* Release */,
+				E6DB0C58F012BD5DF4B0A725350A03FF /* Debug */,
+				A1C3FA39174A032ED6132A1A98972AEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -857,15 +723,6 @@
 			buildConfigurations = (
 				BBBA9EAC2D4BCFA997B2D3CE06EC370D /* Debug */,
 				3B62B5B90D592F912663A97F68E8846C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EF6532C7641ACD818924F0EA2DF78562 /* Build configuration list for PBXNativeTarget "AHProgressSlider" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B85B6B2F4978CB53E7662DB8A4ED98F2 /* Debug */,
-				089E17AE58F53ACB14A343940B17E81D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

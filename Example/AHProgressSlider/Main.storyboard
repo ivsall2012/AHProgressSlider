@@ -23,6 +23,9 @@
                         <subviews>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Lo8-cP-Ge9" customClass="AHProgressSlider" customModule="AHProgressSlider">
                                 <rect key="frame" x="14" y="318.5" width="347" height="31"/>
+                                <connections>
+                                    <action selector="sliderTouchDown:" destination="Dqn-Ur-4zO" eventType="touchDown" id="YGf-GE-iXT"/>
+                                </connections>
                             </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
