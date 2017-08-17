@@ -15,6 +15,12 @@ public class AHProgressSlider: UISlider {
         }
     }
     
+    public var loadedProgressTintColor = UIColor.gray {
+        didSet {
+            self.progressView.progressTintColor = loadedProgressTintColor
+        }
+    }
+    
     public var loadedProgress: CGFloat {
         set {
             guard newValue >= 0.0 && newValue <= 1.0 else{

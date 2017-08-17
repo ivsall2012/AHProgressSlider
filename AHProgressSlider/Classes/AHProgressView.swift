@@ -16,15 +16,15 @@ public class AHProgressView: UIView {
                 progress = oldValue
                 return
             }
-            progressLayer.strokeEnd = progress
-
+            
+            progressView.frame.size.width = self.progress * self.bounds.width
         }
         
     }
     
     public var progressTintColor = UIColor.gray {
         didSet {
-            progressLayer.strokeColor = progressTintColor.cgColor
+            progressView.backgroundColor = progressTintColor
         }
     }
     public var trackTintColor = UIColor.black {
@@ -32,36 +32,30 @@ public class AHProgressView: UIView {
             backgroundColor = trackTintColor
         }
     }
-    public lazy var progressLayer: CAShapeLayer = {
-        let line = CAShapeLayer()
-        line.strokeColor = self.progressTintColor.cgColor
-        line.strokeStart = 0
-        line.strokeEnd = self.progress
-        line.lineCap = kCALineCapSquare
-        return line
+    public lazy var progressView: UIView = {
+        let progressView = UIView()
+        progressView.frame = self.bounds
+        progressView.frame.size.width = self.progress * self.bounds.width
+        progressView.backgroundColor = self.progressTintColor
+        return progressView
     }()
     
     override public init(frame: CGRect) {
         super.init(frame: frame)
         backgroundColor = trackTintColor
-        layer.addSublayer(progressLayer)
+        addSubview(progressView)
     }
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         backgroundColor = trackTintColor
-        layer.addSublayer(progressLayer)
+        addSubview(progressView)
     }
 
     public override func layoutSubviews() {
         super.layoutSubviews()
-        path.removeAllPoints()
-        let offset = self.bounds.height * 0.5
-        path.move(to: CGPoint(x: offset, y: offset))
-        path.addLine(to: CGPoint(x: self.bounds.width - offset, y: offset))
-        progressLayer.frame = self.bounds
-        progressLayer.lineWidth = self.bounds.height
-        progressLayer.path = path.cgPath
+        progressView.frame = self.bounds
+        progressView.frame.size.width = self.progress * self.bounds.width
     }
     
 }

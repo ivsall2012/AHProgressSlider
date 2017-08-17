@@ -22,9 +22,9 @@ class ViewController: UIViewController {
         slider.minimumTrackTintColor = UIColor.red
         let thumbImg = UIImage(named: "player-thumb")
         slider.setThumbImage(thumbImg, for: .normal)
-//        let img = circle(diameter: 20.0, color: .orange)
+//        let img = circle(diameter: 25.0, color: .orange)
 //        slider.setThumbImage(img, for: .normal)
-        slider.trackHeight = 5.0
+//        slider.trackHeight = 2.0
         slider.value = 0.3
         slider.loadedProgress = 0.0
         
@@ -32,18 +32,19 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
-        timer = Timer(timeInterval: 1, target: self, selector: #selector(fireTimer(_:)), userInfo: nil, repeats: true)
+        timer = Timer(timeInterval: 0.1, target: self, selector: #selector(fireTimer(_:)), userInfo: nil, repeats: true)
         RunLoop.main.add(timer!, forMode: .commonModes)
+        
         
     }
     func fireTimer(_ timer: Timer) {
         guard self.slider.loadedProgress <= 0.7 else {
             timer.invalidate()
+            self.slider.loadedProgressTintColor = UIColor.red
             return
         }
         
-        self.slider.loadedProgress += 0.1
+        self.slider.loadedProgress += 0.01
     }
     
     func circle(diameter: CGFloat, color: UIColor) -> UIImage {
@@ -61,28 +62,6 @@ class ViewController: UIViewController {
         
         return img
     }
-    
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        //        let center = CGPoint(x: 200, y: 200)
-        //        let circle = CAShapeLayer()
-        //        let circlePath = UIBezierPath(arcCenter: center, radius: 150.0, startAngle: 0, endAngle: CGFloat(2 * Double.pi), clockwise: true).cgPath
-        //        circle.path = circlePath
-        //        circle.strokeColor = UIColor.black.cgColor
-        //        circle.lineWidth = 8.0
-        //        circle.fillColor = UIColor.clear.cgColor
-        //
-        //        self.view.layer.addSublayer(circle)
-        //
-        //        let drawAniamtion = CABasicAnimation(keyPath: "strokeEnd")
-        //        drawAniamtion.duration = 10.0
-        //        drawAniamtion.repeatCount = 5.0
-        //        drawAniamtion.isRemovedOnCompletion = false
-        //        drawAniamtion.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
-        //        drawAniamtion.fromValue = 0.0
-        //        drawAniamtion.toValue = 1.0
-        //        circle.add(drawAniamtion, forKey: "drawCircleAnimation")
-    }
-    
     
 }
 
