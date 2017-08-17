@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		A17FF4A81F462CCF0022D961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17FF4A71F462CCF0022D961 /* Main.storyboard */; };
 		B892E0646332587DE8CC2B3D /* Pods_AHProgressSlider_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B586596751814EC697FE707E /* Pods_AHProgressSlider_Tests.framework */; };
 		C7E4AB27C6E68BA9CE5EC101 /* Pods_AHProgressSlider_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0572537A12FE1ABF20C253 /* Pods_AHProgressSlider_Example.framework */; };
 /* End PBXBuildFile section */
@@ -33,18 +33,18 @@
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* AHProgressSlider_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHProgressSlider_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		A17FF4A71F462CCF0022D961 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A9011648D40708913F595ADC /* Pods-AHProgressSlider_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHProgressSlider_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AHProgressSlider_Tests/Pods-AHProgressSlider_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A987868F27D76624A36A74A6 /* Pods-AHProgressSlider_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHProgressSlider_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AHProgressSlider_Tests/Pods-AHProgressSlider_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B46A6FB0F0F6D40C9147C5D4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B46A6FB0F0F6D40C9147C5D4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B586596751814EC697FE707E /* Pods_AHProgressSlider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHProgressSlider_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F056E0AE83F35EA74171E021 /* AHProgressSlider.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AHProgressSlider.podspec; path = ../AHProgressSlider.podspec; sourceTree = "<group>"; };
-		F2B65D37A870BD62DC4E42E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F056E0AE83F35EA74171E021 /* AHProgressSlider.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AHProgressSlider.podspec; path = ../AHProgressSlider.podspec; sourceTree = "<group>"; };
+		F2B65D37A870BD62DC4E42E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F9F426B8DACEDF71AF6897A2 /* Pods-AHProgressSlider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHProgressSlider_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AHProgressSlider_Example/Pods-AHProgressSlider_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FB0572537A12FE1ABF20C253 /* Pods_AHProgressSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHProgressSlider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -95,7 +95,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				A17FF4A71F462CCF0022D961 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = MVFF28UQZP;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = MVFF28UQZP;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -248,7 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				A17FF4A81F462CCF0022D961 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -394,14 +396,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -505,6 +499,7 @@
 			baseConfigurationReference = 5508CC4D2F74D2BE922803B5 /* Pods-AHProgressSlider_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MVFF28UQZP;
 				INFOPLIST_FILE = AHProgressSlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -519,6 +514,7 @@
 			baseConfigurationReference = F9F426B8DACEDF71AF6897A2 /* Pods-AHProgressSlider_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MVFF28UQZP;
 				INFOPLIST_FILE = AHProgressSlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +528,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A987868F27D76624A36A74A6 /* Pods-AHProgressSlider_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = MVFF28UQZP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -552,6 +549,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A9011648D40708913F595ADC /* Pods-AHProgressSlider_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = MVFF28UQZP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'AHProgressSlider/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'AHProgressSlider' => ['AHProgressSlider/Assets/*.png']
-  # }
+    s.resource_bundles = {
+        'AHProgressSlider' => ['AHProgressSlider/Assets/*.xcassets']
+    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

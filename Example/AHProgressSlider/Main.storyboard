@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Dqn-Ur-4zO">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="rHS-cw-38p">
+            <objects>
+                <viewController id="Dqn-Ur-4zO" customClass="ViewController" customModule="AHProgressSlider_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ldu-gz-xxN"/>
+                        <viewControllerLayoutGuide type="bottom" id="hwz-DC-WVv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="P59-OL-bsv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Lo8-cP-Ge9" customClass="AHProgressSlider" customModule="AHProgressSlider">
+                                <rect key="frame" x="14" y="318.5" width="347" height="31"/>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Lo8-cP-Ge9" firstAttribute="centerX" secondItem="P59-OL-bsv" secondAttribute="centerX" id="CGb-uz-eun"/>
+                            <constraint firstItem="Lo8-cP-Ge9" firstAttribute="centerY" secondItem="P59-OL-bsv" secondAttribute="centerY" id="gVl-bP-Urx"/>
+                            <constraint firstAttribute="trailing" secondItem="Lo8-cP-Ge9" secondAttribute="trailing" constant="16" id="wD9-BA-CC5"/>
+                            <constraint firstItem="Lo8-cP-Ge9" firstAttribute="leading" secondItem="P59-OL-bsv" secondAttribute="leading" constant="16" id="yfe-QG-xuO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="slider" destination="Lo8-cP-Ge9" id="0ny-0y-WmW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bT3-V9-8M4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-510" y="-3"/>
+        </scene>
+    </scenes>
+</document>
