@@ -25,45 +25,27 @@ class ViewController: UIViewController {
         slider.minimumTrackTintColor = UIColor.red
         let thumbImg = UIImage(named: "player-thumb")
         slider.setThumbImage(thumbImg, for: .normal)
-//        let img = circle(diameter: 25.0, color: .orange)
-//        slider.setThumbImage(img, for: .normal)
+        /// Default is gray too.
+        self.slider.loadedProgressTintColor = UIColor.green
         slider.trackHeight = 2.0
         slider.value = 0.3
         slider.loadedProgress = 0.0
         
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         timer = Timer(timeInterval: 0.1, target: self, selector: #selector(fireTimer(_:)), userInfo: nil, repeats: true)
         RunLoop.main.add(timer!, forMode: .commonModes)
-        
-        
     }
+    
     func fireTimer(_ timer: Timer) {
-        guard self.slider.loadedProgress <= 0.7 else {
+        guard self.slider.loadedProgress < 0.99 else {
             timer.invalidate()
-            self.slider.loadedProgressTintColor = UIColor.red
+            self.slider.loadedProgress = 1.0
             return
         }
         
         self.slider.loadedProgress += 0.01
-    }
-    
-    func circle(diameter: CGFloat, color: UIColor) -> UIImage {
-        UIGraphicsBeginImageContextWithOptions(CGSize(width: diameter, height: diameter), false, 0)
-        let ctx = UIGraphicsGetCurrentContext()!
-        ctx.saveGState()
-        
-        let rect = CGRect(x: 0, y: 0, width: diameter, height: diameter)
-        ctx.setFillColor(color.cgColor)
-        ctx.fillEllipse(in: rect)
-        ctx.setShadow(offset: CGSize(width: 10, height: 10), blur: 3.0)
-        ctx.restoreGState()
-        let img = UIGraphicsGetImageFromCurrentImageContext()!
-        UIGraphicsEndImageContext()
-        
-        return img
     }
     
 }
