@@ -36,7 +36,7 @@ pod "AHProgressSlider"
 
 ## Author
 
-ivsall2012, ivsall2012@gmail.com
+Andy Tong, ivsall2012@gmail.com
 
 ## License
 
