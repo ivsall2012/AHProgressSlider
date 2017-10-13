@@ -1,9 +1,23 @@
 # AHProgressSlider
+## Demo
+![](https://github.com/ivsall2012/AHProgressSlider/blob/master/demo.gif)
 
-[![CI Status](http://img.shields.io/travis/ivsall2012/AHProgressSlider.svg?style=flat)](https://travis-ci.org/ivsall2012/AHProgressSlider)
-[![Version](https://img.shields.io/cocoapods/v/AHProgressSlider.svg?style=flat)](http://cocoapods.org/pods/AHProgressSlider)
-[![License](https://img.shields.io/cocoapods/l/AHProgressSlider.svg?style=flat)](http://cocoapods.org/pods/AHProgressSlider)
-[![Platform](https://img.shields.io/cocoapods/p/AHProgressSlider.svg?style=flat)](http://cocoapods.org/pods/AHProgressSlider)
+## Usage
+### Creation
+You can create it like any other UIView, either by code or through a storyboard or a nib
+
+### Configuration
+```Swift
+slider.maximumTrackTintColor = UIColor.clear
+slider.minimumTrackTintColor = UIColor.red
+let thumbImg = UIImage(named: "player-thumb")
+slider.setThumbImage(thumbImg, for: .normal)
+/// Default is gray.
+self.slider.loadedProgressTintColor = UIColor.green
+slider.trackHeight = 2.0
+slider.value = 0.3
+slider.loadedProgress = 0.0
+```
 
 ## Example
 
